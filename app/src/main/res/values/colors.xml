@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Load Bracket table colors -->
+    <color name="table_column_name">#275f96</color>
+    <color name="table_column_name_text">#ffffff</color>
+    <color name="table_column_dark">#def</color>
+    <color name="table_column_light">#f8f8ff</color>
+    <color name="table_column_highlight">#82cffd</color>
+    <color name="table_column_dividers">#ffffff</color>
+    <color name="table_boarder">#9ba4ad</color>
+
+    <!-- Style colors -->
+    <color name="statusbar_background">#0b3661</color>
+    <color name="actionbar_background">#104e8b</color>
+    <color name="activity_background_color">#adb7c1</color>
+    <color name="component_activated">#1c86ee</color>
+    <color name="button_text">#1874cd</color>
+
+    <!-- Bracket node text colors -->
+    <color name="remnant_and_bye_text">#9ba4ad</color>
+    <color name="active_node_text">#000000</color>
+    
+</resources>

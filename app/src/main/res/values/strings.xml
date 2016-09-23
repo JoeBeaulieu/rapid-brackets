@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name and Activity Names -->
+    <string name="app_name">Rapid Brackets</string>
+    <string name="title_activity_new_bracket">Create</string>
+    <string name="title_activity_load_bracket">Load Bracket</string>
+    <string name="title_activity_play_bracket">Play!</string>
+
+    <!--
+       - Activity Strings (Non-Buttons)
+      -->
+
+    <!-- MainActivity -->
+    <string name="text_welcome">Welcome to Rapid Brackets!</string>
+
+    <!-- NewBracket -->
+    <string name="text_bracket_name">Bracket Name:</string>
+    <string name="text_players">Players:</string>
+    <string name="text_elimination_type">Elimination Type:</string>
+
+    <!-- LoadBracket -->
+    <string name="load_bracket_name_column">Name</string>
+    <string name="load_bracket_players_column">Players</string>
+    <string name="load_bracket_date_column">Created</string>
+
+    <!-- Menu Item Action Text -->
+    <string name="action_save">Save</string>
+
+    <!-- Button Strings -->
+    <string name="button_new">New</string>
+    <string name="button_save">Save</string>
+    <string name="button_dont_save">Don\'t Save</string>
+    <string name="button_overwrite">Overwrite</string>
+    <string name="button_load">Load</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_create">Create</string>
+    <string name="button_delete">Delete</string>
+    <string name="button_ok">OK</string>
+
+    <!-- Hints -->
+    <string name="hint_enter_name">Enter name</string>
+
+    <!-- Non-Error Prompt Strings -->
+    <string name="prompt_title_wait">Wait</string>
+    <string name="prompt_save_on_exit">Exiting will cause you to lose all unsaved progress.\n\nWould you like to save?</string>
+    <string name="prompt_confirm_leave_screen">Exiting will cause you to lose all entered information.\n\nWould you like to exit?</string>
+    <string name="prompt_confirm_bracket_deletion">Are you sure you want to delete this bracket?</string>
+    <string name="prompt_title_congratulations">Congratulations!</string>
+    <string name="prompt_new_champion">won!</string>
+
+    <!-- Error Prompt Strings -->
+    <string name="error_title">Oops!</string>
+    <string name="error_text_player_names">All players\' names must be entered.</string>
+    <string name="error_text_invalid_char_player">Only letters, numbers, and spaces may be used in player names.</string>
+    <string name="error_text_invalid_char_bracket">Only letters, numbers, and spaces may be used in bracket names.</string>
+    <string name="error_text_no_bracket_name">Brackets must be given a name.</string>
+    <string name="error_text_duplicate_bracket_name">A bracket with that name already exists.</string>
+    <string name="error_text_non_unique_player_name">More than one player cannot have the same name.</string>
+    <string name="error_text_non_unique_seed">More than one player cannot have the same seed.</string>
+    <string name="error_no_bracket_selected_load">No bracket selected to load.</string>
+    <string name="error_no_bracket_selected_delete">No bracket selected to delete.</string>
+    <string name="error_double_elim_coming_soon">Double elimination coming soon :)</string>
+
+    <!-- Toasts -->
+    <string name="toast_bracket_saved">Bracket saved</string>
+    <string name="toast_bracket_save_error">Error 01: Bracket not saved. Please report to developer</string>
+    <string name="toast_bracket_deleted">Bracket deleted</string>
+    <string name="toast_advance_bye">BYEs cannot advance</string>
+
+    <!-- Exceptions -->
+    <string name="excep_bracket_not_created">Bracket not created. Call BracketInterface.createBracket() to create bracket.</string>
+
+    <!-- Accessibility Strings -->
+    <string name="access_main_activity_img">Rapid Brackets Champion</string>
+
+    <!--
+       - Spinners
+      -->
+
+    <!-- The "Elimination Type" Spinner in the NewBracket Activity -->
+    <string-array name="spinner_elimination_types">
+        <item>Single</item>
+        <item>Double</item>
+    </string-array>
+
+    <!-- The "Players" Spinner in the NewBracket Activity; used to select the number of players -->
+    <string-array name="spinner_num_players_arr">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+    </string-array>
+
+    <!-- The player seed entry Spinner in the NewBracket Activity -->
+    <string-array name="spinner_seed_num">
+        <item>No Seed</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+</resources>

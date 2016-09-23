@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.joebeaulieu.rapidbrackets.activities" >
+
+    <!--
+    <uses-sdk android:minSdkVersion="11" />
+    -->
+
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppCompat" >
+        <activity
+            android:name="com.joebeaulieu.rapidbrackets.activities.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.joebeaulieu.rapidbrackets.activities.NewBracket"
+            android:label="@string/title_activity_new_bracket"
+            android:parentActivityName="com.joebeaulieu.rapidbrackets.activities.MainActivity"
+            android:windowSoftInputMode="stateHidden" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.joebeaulieu.rapidbrackets.activities.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.joebeaulieu.rapidbrackets.activities.PlayBracket"
+            android:label="@string/title_activity_play_bracket"
+            android:parentActivityName="com.joebeaulieu.rapidbrackets.activities.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.joebeaulieu.rapidbrackets.activities.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.joebeaulieu.rapidbrackets.activities.LoadBracket"
+            android:label="@string/title_activity_load_bracket"
+            android:parentActivityName="com.joebeaulieu.rapidbrackets.activities.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.joebeaulieu.rapidbrackets.activities.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

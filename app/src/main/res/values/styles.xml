@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme -->
+    <style name="AppCompat" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Support Library Compatibility -->
+        <item name="colorPrimaryDark">@color/statusbar_background</item>
+        <item name="actionBarStyle">@style/BracketActionBar</item>
+        <item name="colorAccent">@color/button_text</item>
+        <!-- <item name="colorControlNormal">#ffffff</item> -->
+        <item name="colorControlActivated">@color/component_activated</item>
+        <item name="android:windowBackground">@color/activity_background_color</item>
+    </style>
+
+    <!-- ActionBar Style -->
+    <style name="BracketActionBar" parent="Widget.AppCompat.Light.ActionBar.Solid">
+        <!-- Support Library Compatibility -->
+        <item name="background">@color/actionbar_background</item>
+    </style>
+
+    <!-- User Prompt Style (PromptError, PromptSave) -->
+    <style name="UserPrompts" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!-- Support Library Compatibility -->
+        <item name="colorAccent">@color/button_text</item>
+    </style>
+
+    <!-- Large Text -->
+    <style name="LargeText" parent="TextAppearance.AppCompat.Large">
+        <!-- an empty style extension to deal with parent style being made private -->
+    </style>
+
+    <!-- Medium Text -->
+    <style name="MediumText" parent="TextAppearance.AppCompat.Medium">
+        <!-- an empty style extension to deal with parent style being made private -->
+    </style>
+
+</resources>
